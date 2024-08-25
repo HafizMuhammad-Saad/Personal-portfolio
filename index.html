@@ -10,14 +10,17 @@
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
 
-</head>
+    <!-- Update fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"></head>
 
 <body>
 
     <!-- header  -->
     <header>
         <div class="logo">
-            <img src="Muhammad Saad" alt="{Muhammad Saad}">
+            <img src="img/—Pngtree—vector male student icon_4151037.png" alt="{Muhammad Saad}" width="150px">
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
@@ -26,8 +29,8 @@
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                 <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
         </nav>
     </header>
@@ -38,7 +41,7 @@
             Hi, I am <strong>Muhammad Saad</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img src="" alt="a picture of Muhammad Saad">
+        <img src="img/WhatsApp Image 2024-02-15 at 6.38.20 PM.jpeg" alt="a picture of Muhammad Saad" class="intro__img">
     </section>
 
 
@@ -75,47 +78,52 @@
 
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+        <p class="section__subtitle section__subtitle--about">Designer & developer based out of NYC</p>
 
         <div class="about-me__body">
-            <p></p>
-            <p></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officiis autem sint ipsam est libero
+                recusandae. Illo nemo aliquam assumenda ratione itaque dolores, sit vel praesentium quibusdam nesciunt
+                eligendi enim ullam cumque, cum officiis, voluptates maxime? Deserunt adipisci eius unde.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae perspiciatis deleniti adipisci. Neque
+                sequi quo quam eligendi, deserunt ea accusamus delectus esse eaque doloremque odit, recusandae quisquam
+                nemo perspiciatis numquam aspernatur facilis suscipit vero officia commodi! Corporis perspiciatis culpa
+                quam!</p>
         </div>
 
-        <img src="" alt="">
+        <img src="img/WhatsApp Image 2024-02-15 at 6.38.20 PM.jpeg" alt="" class="about-me__img">
     </section>
 
     <!-- My work -->
     <section class="my-work" id="work">
-        <h2 class="section__title">My work</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A Selection of My Range of Work</p>
 
         <div class="portfolio">
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
             </a>
 
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
             </a>
 
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
             </a>
 
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
             </a>
 
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
             </a>
 
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
             </a>
 
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
             </a>
 
@@ -131,15 +139,17 @@
 
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <a href="" class="footer__link">studentsaad41@gmail.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a href="" class="social-list__link">a</a></li>
-            <li class="social-list__item"><a href="" class="social-list__link">b</a></li>
-            <li class="social-list__item"><a href="" class="social-list__link">c</a></li>
-            <li class="social-list__item"><a href="" class="social-list__link">d</a></li>
+            <li class="social-list__item"><a href="https://codepen.io" class="social-list__link"><i class="fab fa-codepen"></i></a></li>
+            <li class="social-list__item"><a href="http://dribbble.com" class="social-list__link"><i class="fab fa-dribbble"></i></a></li>
+            <li class="social-list__item"><a href="https://twitter.com" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-list__item"><a href="https://github.com" class="social-list__link"><i class="fab fa-github"></i></a></li>
         </ul>
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
