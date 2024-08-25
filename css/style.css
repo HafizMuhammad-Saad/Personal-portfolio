@@ -400,6 +400,9 @@
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+    width: 352px;
+    height: 352px;
+    object-fit: cover;
 }
 
 .portfolio__item:focus {
@@ -472,4 +475,17 @@
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+::-webkit-scrollbar {
+    background-color: gray;
+    border-radius: 10px;
+    width: 15px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #4a90e2;
+    border-radius: 10px;
 }
